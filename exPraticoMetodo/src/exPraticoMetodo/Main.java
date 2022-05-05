@@ -18,10 +18,16 @@ public class Main {
 		Mensagem.obterMensagem(22);
 		
 		//Empréstimo
-		System.out.println("Exercício de Emprestimo");
+		System.out.println("Exercício Emprestimo");
 		Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
 		Emprestimo.calcular(1000, Emprestimo.getTresParcelas());
 		Emprestimo.calcular(1000, 5);
 
+		//Quadrilatero
+		System.out.println("Exercício quadrilátero");
+		Quadrilatero.area(3);
+		Quadrilatero.area(5,5);
+		Quadrilatero.area(7, 8, 9);
 	}
+	
 }
